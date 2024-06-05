@@ -12,13 +12,13 @@
       "src": "/(.*)",
       "dest": "/"
     },
-    {
-      "src": "/",
-      "dest": "public/test.html"
-    },
-    {
-      "src": "/(.+)",
-      "dest": "public/$1"
-    }
+{
+"src": "/public/(.)",
+"dest": "/public/$1"
+},
+{
+"src": "/(.*)",
+"dest": "/index.js"
+}
   ]
 }
